@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    'boxtext boxtext planet astro'
+    'boxtext boxtext gun ship';
+}
+
+header img {
+  padding: 2.4rem;
+}
+
+.big-box-text {
+  font-size: 2vw;
+  background-color: #2e2d31;
+  grid-area: boxtext;
+}
+
+.planet-box {
+  background-color: var(--dark-purple);
+  grid-area: planet;
+}
+
+.astro-box {
+  background-color: var(--purple-rouge);
+  grid-area: astro;
+}
+
+.gun-box {
+  background-color: var(--light-purple);
+  grid-area: gun;
+}
+
+.ship-box {
+  background-color: var(--damp-purple);
+  grid-area: ship;
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/98-spaceHack/static/css/main.2c2872a4.css",
+    "main.js": "/98-spaceHack/static/js/main.9a1e7c28.js",
+    "static/media/littleGuy.jpg": "/98-spaceHack/static/media/littleGuy.3f639ea9fab5c1de1642.jpg",
+    "static/media/constellation.png": "/98-spaceHack/static/media/constellation.2a9c808f779a9fe5c501.png",
+    "index.html": "/98-spaceHack/index.html",
+    "main.2c2872a4.css.map": "/98-spaceHack/static/css/main.2c2872a4.css.map",
+    "main.9a1e7c28.js.map": "/98-spaceHack/static/js/main.9a1e7c28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c2872a4.css",
+    "static/js/main.9a1e7c28.js"
+  ]
+}

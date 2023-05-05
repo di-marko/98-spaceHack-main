@@ -1,0 +1,30 @@
+.git-button {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  overflow: hidden;
+  width: auto;
+  max-width: 55px;
+  height: 55px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--shadow2);
+  color: var(--black-purple);
+  background-color: var(--white);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    box-shadow: var(--shadow2-hover);
+  }
+}
+
+.git-button__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  font-size: 1.5rem;
+}

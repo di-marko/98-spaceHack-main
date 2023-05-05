@@ -1,0 +1,37 @@
+:root {
+  --black-purple: #2e2d31;
+  --dark-purple: #5d44ab;
+  --purple-rouge: #7654b4;
+  --damp-purple: #513779;
+  --light-purple: #967ecb;
+  --footer-purple: #654c8c;
+  --white: #f1f1f1;
+  --shadow: -2px -2px 4px 0px #ffffff, 50px 50px 50px 0px rgba(0, 0, 0, 0.25);
+  --shadow2: -2px -2px 4px 0px #ffffff, 4px 4px 3px 0px rgba(0, 0, 0, 0.25);
+  --shadow2-hover: -4px -4px 4px 0px #ffffff, 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+header section,
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--white);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.app {
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--shadow);
+  margin: 50px auto;
+}

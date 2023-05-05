@@ -1,0 +1,38 @@
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: 'satellite planets constellation constellation' 'mediumbox mediumbox constellation constellation';
+}
+
+main img {
+  padding: 2.4rem;
+}
+
+main h1 {
+  font-size: 2vw;
+}
+
+.satellite-box {
+  background-color: var(--purple-rouge);
+  grid-area: satellite;
+}
+
+.planets-box {
+  background-color: var(--dark-purple);
+  grid-area: planets;
+}
+
+.medium-text-box {
+  grid-area: mediumbox;
+  background-color: var(--damp-purple);
+}
+
+.constellation-box {
+  display: flex;
+  align-self: center;
+  height: 100%;
+  grid-area: constellation;
+  background-color: var(--black-purple);
+}
